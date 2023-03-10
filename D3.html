@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+<html lang="en"></html>
+<link rel="stylesheet" type="text/css" href="main.css" />
 <meta charset="utf-8">
 <script src="https://d3js.org/d3.v4.js"></script>
 <div id="my_dataviz"></div>
+<body>
 
 <script>
 var margin = {top: 10, right: 30, bottom: 30, left: 40},
@@ -65,3 +68,8 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 
 });
 </script>
+
+<h2>This is a histogram with colored tail created using D3.js. An if else statement is made when the color argument is called. If it exceeds the threshold value of 140 then it should be colored green else it is represented in yellow color.</h2>
+<h2>Refrences :</h2>
+<a href="https://d3js.org/">D3.js</a>
+</body>
